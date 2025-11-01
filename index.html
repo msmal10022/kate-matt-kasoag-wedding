@@ -97,4 +97,189 @@
             font-size: 2.2em;
             margin-bottom: 25px;
             text-align: center;
-            font-we
+            font-weight: normal;
+        }
+
+        .event-details {
+            text-align: center;
+            font-size: 1.1em;
+        }
+
+        .event-details .detail-item {
+            margin: 20px 0;
+        }
+
+        .event-details .detail-label {
+            font-weight: bold;
+            color: #d4a574;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .schedule-grid {
+            display: grid;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .schedule-item {
+            border-left: 4px solid #d4a574;
+            padding-left: 20px;
+        }
+
+        .schedule-item .time {
+            font-weight: bold;
+            color: #8b6f47;
+            font-size: 1.2em;
+        }
+
+        .schedule-item .activity {
+            margin-top: 5px;
+            font-size: 1.1em;
+        }
+
+        .highlight-box {
+            background: #faf6f0;
+            border: 2px solid #d4a574;
+            border-radius: 8px;
+            padding: 25px;
+            margin: 25px 0;
+            text-align: center;
+        }
+
+        .highlight-box h3 {
+            color: #8b6f47;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #3d3d3d;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 60px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            header .date {
+                font-size: 1.2em;
+            }
+
+            section {
+                padding: 30px 20px;
+            }
+
+            section h2 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="original_078fd2a9-b6aa-4125-b61f-a8e5bdc8edde_PXL_20251025_212211043.jpg" alt="Two birds in a nest">
+        <h1>k8 & m@ are getting hitched!</h1>
+        <p class="date">july 25, 2026</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#details">details</a></li>
+            <li><a href="#schedule">schedule</a></li>
+            <li><a href="#location">location</a></li>
+            <li><a href="#rsvp">rsvp</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="details">
+            <h2>event details</h2>
+            <div class="event-details">
+                <div class="detail-item">
+                    <span class="detail-label">date</span>
+                    saturday, july 25, 2026
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">time</span>
+                    3:00 pm
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">venue</span>
+                    kasoag lake tavern<br>
+                    altmar, ny
+                </div>
+            </div>
+
+            <div class="highlight-box">
+                <h3>what to expect</h3>
+                <p>join us for an afternoon and evening of celebration! we'll have delicious food, an open bar, dancing with our dj, and later in the evening... karaoke! get your song requests ready!</p>
+            </div>
+        </section>
+
+        <section id="schedule">
+            <h2>schedule of events</h2>
+            <div class="schedule-grid">
+                <div class="schedule-item">
+                    <div class="time">3:00 pm</div>
+                    <div class="activity">ceremony begins</div>
+                </div>
+                <div class="schedule-item">
+                    <div class="time">3:30 pm</div>
+                    <div class="activity">cocktail hour</div>
+                </div>
+                <div class="schedule-item">
+                    <div class="time">4:30 pm</div>
+                    <div class="activity">reception & dinner service</div>
+                </div>
+                <div class="schedule-item">
+                    <div class="time">6:00 pm</div>
+                    <div class="activity">first dance & dancing begins</div>
+                </div>
+                <div class="schedule-item">
+                    <div class="time">8:00 pm</div>
+                    <div class="activity">karaoke time! 🎤</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="location">
+            <h2>location & travel</h2>
+            <div class="event-details">
+                <div class="detail-item">
+                    <span class="detail-label">kasoag lake tavern</span>
+                    altmar, ny 13302
+                </div>
+            </div>
+            
+            <div class="highlight-box">
+                <h3>accommodations</h3>
+                <p>information about nearby hotels and accommodations coming soon!</p>
+            </div>
+        </section>
+
+        <section id="rsvp">
+            <h2>rsvp</h2>
+            <div class="event-details">
+                <p style="margin-bottom: 30px;">please rsvp by june 1, 2026</p>
+            </div>
+            
+            <div class="form-container" style="display: flex; justify-content: center; margin-top: 20px;">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfAu6ZCvMlTN62Y9U2Euc_I-bAyoCivsdYakt8RtpTFFXOn-A/viewform?embedded=true" width="640" height="2118" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>we can't wait to celebrate with you!</p>
+        <p style="margin-top: 10px; font-size: 0.9em;">© 2025</p>
+    </footer>
+</body>
+</html>
