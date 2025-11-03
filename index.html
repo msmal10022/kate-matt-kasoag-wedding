@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>our wedding - july 25, 2026</title>
+    <title>Our Wedding - July 25, 2026</title>
     <style>
         * {
             margin: 0;
@@ -152,6 +153,26 @@
             margin-bottom: 10px;
         }
 
+        .photo-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .photo-gallery img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .photo-gallery img:hover {
+            transform: scale(1.05);
+        }
+
         footer {
             background: #3d3d3d;
             color: white;
@@ -224,6 +245,21 @@
             </div>
         </section>
 
+        <section id="photos">
+            <h2>our story in photos</h2>
+            <div class="photo-gallery">
+                <img src="Kate and Matt Brooklyn dinner.jpg" alt="Kate and Matt in Brooklyn">
+                <img src="Kate and Matt Tristaina bridge.JPG" alt="Kate and Matt at Tristaina bridge">
+                <img src="Kate and Matt Tristaina rock.JPG" alt="Kate and Matt at Tristaina rock">
+                <img src="Kate and Matt biking.JPG" alt="Kate and Matt biking">
+                <img src="Kate and Matt wedding.JPG" alt="Kate and Matt wedding">
+                <img src="Kate and Matt Emric wedding.PNG" alt="Kate and Matt at Emric wedding">
+                <img src="Kate graduation.jpg" alt="Kate graduation">
+                <img src="American Gothic.jpg" alt="American Gothic">
+                <img src="Budapest.jpg" alt="Budapest">
+            </div>
+        </section>
+
         <section id="schedule">
             <h2>schedule of events</h2>
             <div class="schedule-grid">
@@ -261,14 +297,14 @@
             
             <div class="highlight-box">
                 <h3>accommodations</h3>
-                <p>the owners of the tavern have several airbnb properties just steps away from the venue. we plan to rent them all out for friday and saturday night to accommodate all of our guests! beyond the tavern property, we may also look into renting other houses around kasoag lake. be sure to indicate your accommodation needs in the google form below.</p>
+                <p>information about nearby hotels and accommodations coming soon!</p>
             </div>
         </section>
 
         <section id="rsvp">
             <h2>rsvp</h2>
             <div class="event-details">
-                <p style="margin-bottom: 30px;">please rsvp by may 1, 2026</p>
+                <p style="margin-bottom: 30px;">please rsvp by june 1, 2026</p>
             </div>
             
             <div class="form-container" style="display: flex; justify-content: center; margin-top: 20px;">
